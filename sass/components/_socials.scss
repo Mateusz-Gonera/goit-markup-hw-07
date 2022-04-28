@@ -1,0 +1,17 @@
+.socials {
+      &:not(:last-child) {
+            margin-right: 10px;
+      }
+      
+      &__link {
+            display: flex;
+            padding: 12px;
+            border-radius: 50%;
+            fill: var(--icon-first-color);
+            transition-duration: 250ms;
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+}
+
+
+
