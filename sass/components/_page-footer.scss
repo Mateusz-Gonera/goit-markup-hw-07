@@ -1,0 +1,31 @@
+.page-footer {
+      background-color: var(--main-background-color);
+      padding: 0;
+
+      &__third-heading {
+            color: var(--white-color);
+            margin-bottom: 20px;
+      }
+
+      &__logo {
+            display: inline-block;
+            color: var(--white-color);
+            margin-bottom: 20px;
+      }
+
+      &__address {
+            margin-right: 70px;
+      }
+
+      &__address-container {
+            display: block;
+            padding-top: 60px;
+            padding-bottom: 60px;
+      }
+}
+
+
+
+
+
+

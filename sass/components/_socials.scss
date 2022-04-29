@@ -1,15 +1,27 @@
 .socials {
+
       &:not(:last-child) {
             margin-right: 10px;
+      }    
+
+}
+
+.socials__link {
+      display: flex;
+      padding: 12px;
+      border-radius: 50%;
+      fill: var(--icon-first-color);
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+      &--light {
+            transition-property: fill, background-color;
       }
       
-      &__link {
-            display: flex;
-            padding: 12px;
-            border-radius: 50%;
-            fill: var(--icon-first-color);
-            transition-duration: 250ms;
-            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      &--light:hover,
+      &--light:focus {
+            fill: var(--white-color);
+            background-color: var(--decorative-color);
       }
 }
 
